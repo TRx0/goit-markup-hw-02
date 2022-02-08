@@ -1,0 +1,22 @@
+:root {
+   --primary-text-color: #212121;
+   --title-text-color:#757575;
+   --accent-color: #2196F3;
+
+}
+.site-nav{
+    color: var(--primary-text-color);
+}
+.site-nav:hover{
+    color: var(--accent-color);
+}
+.contact-nav{
+    color: var(--primary-text-color);
+}
+.contact-nav:hover{
+    color: var(--accent-color);
+}
+ul{
+    list-style: none;
+
+}
