@@ -16,24 +16,21 @@ body {
 .link {
   text-decoration: none;
 }
-.logo-first {
+.logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color:var(--primary-text-color);
 }
-.logo-second {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #212121;
+.logo > span {
+  color: var(--accent-color);
 }
+
+
 .nav-link {
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -69,8 +66,7 @@ body {
   color: #ffffff;
 }
 .main-button {
-  font-family: Roboto;
-  font-style: normal;
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -84,8 +80,6 @@ body {
 }
 /* Advantages */
 .title-text {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -95,8 +89,6 @@ body {
   text-transform: uppercase;
 }
 .text-desc {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -119,7 +111,6 @@ body {
   color: var(--primary-text-color);
 }
 .team-desc {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -138,7 +129,6 @@ body {
 }
 .adress-link {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -150,7 +140,6 @@ body {
 }
 .contact-footer {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -160,8 +149,12 @@ body {
 .contact-footer:focus {
   color: var(--accent-color);
 }
+a > .footer-logo{
+  color: #ffffff;
+}
 /* Portfolio */
 .button-list button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -178,7 +171,6 @@ body {
   background-color: var(--accent-color);
 }
 .subtitle-examples > li > h3 {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -186,8 +178,6 @@ body {
   color: var(--primary-text-color);
 }
 .desc-examples > li > p {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
